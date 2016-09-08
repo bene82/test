@@ -5,7 +5,7 @@
 if (function_exists('category_image_src')) {
 $category_image = category_image_src( array( 'size' => 'full' ) , false );
 } else {
-$category_image = ''; 
+$category_image = '';   
 }
 ?>
 <div class="slider" style="background: url('<?php echo $category_image; ?>') center/cover no-repeat;"></div>
