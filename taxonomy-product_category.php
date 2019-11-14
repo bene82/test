@@ -76,7 +76,7 @@ if (function_exists('category_image_src')) {
 
                             if ($current_subcat == $subcat->slug) {
 
-                                $active = 'active';
+                                $active = 'modifica';
                             }
                             echo '<li><a class="' . $active . '" href="' . get_category_link($subcat->term_id) . '">' . $subcat->name . '</a></li>';
                         }
